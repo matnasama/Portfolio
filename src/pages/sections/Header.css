@@ -1,0 +1,25 @@
+.header {
+    height: 40px;
+    background-color: #3d4349;
+    display: flex;
+    justify-content: center;
+}
+
+.header .navbar {
+    display: grid;
+    justify-content: center;
+    margin: auto;
+}
+
+.header .navbar .MuiBox-root {
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .navbar .MuiBox-root a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    place-items: middle;
+}
