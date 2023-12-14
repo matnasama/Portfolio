@@ -6,15 +6,15 @@
 }
 
 .header .navbar {
-    display: grid;
-    justify-content: center;
-    margin: auto;
+    display: flex;
+    place-items: center;
+
 }
 
 .header .navbar .MuiBox-root {
-    width: 80vw;
+    width: 70vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .header .navbar .MuiBox-root a {
@@ -22,4 +22,5 @@
     text-decoration: none;
     text-transform: uppercase;
     place-items: middle;
+
 }

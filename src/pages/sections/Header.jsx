@@ -1,7 +1,8 @@
 import { Link } from '../../components/Link'
 import * as React from 'react';
 import Box from '@mui/material/Box';
-import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
+import HomeIcon from '@mui/icons-material/Home';
+import PowerSettingsNewIcon from '@mui/icons-material/PowerSettingsNew';
 import './Header.css'
 
 export default function Header () {
@@ -9,14 +10,14 @@ export default function Header () {
     <>
         <div className="header">
             <div className="navbar">
+                <HomeIcon className='icon-home' fontSize="medium" sx={{color:"#fff"}}><Link to='/'></Link></HomeIcon>
                 <Box>
-                    <Link to='/' src={HomeOutlinedIcon}></Link> 
                     <Link to='/about'>Acerca de</Link>
                     <Link to='/tramites'>Tramites</Link>
                     <Link to='/'>Inicio </Link>
                     <Link to='/about'>Acerca de</Link>
-                    <Link to='/'></Link>
                 </Box>
+                <PowerSettingsNewIcon className='icon-end' fontSize="medium" sx={{color:"#fff"}}><Link to='/'></Link></PowerSettingsNewIcon>
             </div>
         </div>
     </>
