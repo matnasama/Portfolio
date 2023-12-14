@@ -1,6 +1,6 @@
 .header {
     height: 40px;
-    background-color: #3d4349;
+    background: radial-gradient(#7c7f81, #1d2022, #3489ce);
     display: flex;
     justify-content: center;
 }

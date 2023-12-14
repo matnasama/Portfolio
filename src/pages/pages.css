@@ -1,9 +1,0 @@
-#root {
-  width: 100vw;
-  height: 100vh;
-  background-color: aliceblue;
-  background: radial-gradient(#080a0c, #0e243a, #082136);
-  background-position: center;
-  background-size: cover;
-  margin: 20px 0;
-}

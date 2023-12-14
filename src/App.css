@@ -1,13 +1,10 @@
 #root {
-    height: 100vh;
-    max-width: 100vw;
-    margin: 0;
-    text-align: center;
-    min-width: 360px;
-    display: flex;
-    flex-direction: column;
-    background-color: #566777;
-    font-family: 'Futura Std';
-  }
-  
+  width: 100vw;
+  height: 100vh;
+  background-color: aliceblue;
+  background: radial-gradient(#080a0c, #0e243a, #082136);
+  background-position: center;
+  background-size: cover;
+  margin: 20px 0;
+}
   
