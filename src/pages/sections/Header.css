@@ -1,20 +1,25 @@
 .header {
     height: 40px;
-    background: radial-gradient(#7c7f81, #1d2022, #3489ce);
+    background: radial-gradient(#75808b, #212529);
     display: flex;
     justify-content: center;
+    min-width: 660px;
 }
 
 .header .navbar {
     display: flex;
     place-items: center;
+    width: 50vw;
+    justify-content: space-around;
 
 }
 
 .header .navbar .MuiBox-root {
-    width: 70vw;
     display: flex;
+    place-items: center;
+    width: 50vw;
     justify-content: space-around;
+    height: 40px;
 }
 
 .header .navbar .MuiBox-root a {
@@ -22,5 +27,16 @@
     text-decoration: none;
     text-transform: uppercase;
     place-items: middle;
+    border-right-style: solid 1px #000000;
 
+}
+
+.header .navbar .MuiStack-root {
+    height: 40px;
+    place-items: center;
+}
+
+hr {
+    background-color: #000000;
+    width: 2px;
 }
