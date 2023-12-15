@@ -17,15 +17,15 @@ export default function Header () {
                   <Stack
                     direction="row"
                     divider={<Divider orientation="vertical" flexItem />}
-                    spacing={3}
+                    spacing={4}
                   >
-                    <HomeIcon className='icon-home' fontSize="medium" sx={{color:"#fff", marginRight:0, paddingLeft:4}}><Link to='/'></Link></HomeIcon>
+                    <HomeIcon className='icon-home' fontSize="medium" sx={{color:"#fff"}}><Link to='/'></Link></HomeIcon>
                     <Link to='/about'>play</Link>
                     <Link to='/tramites'>inventory</Link>
                     <Link to='/'>watch</Link>
                     <Link to='/about'>awards</Link>
                     <Link to='/about'>options</Link>
-                    <PowerSettingsNewIcon className='icon-end' fontSize="medium" sx={{color:"#fff", marginLeft:0, paddingRight:4}}><Link to='/'></Link></PowerSettingsNewIcon>
+                    <PowerSettingsNewIcon className='icon-end' fontSize="medium" sx={{color:"#fff"}}><Link to='/'></Link></PowerSettingsNewIcon>
                   </Stack>
 
                 </Box>

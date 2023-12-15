@@ -22,12 +22,15 @@
     height: 40px;
 }
 
+
 .header .navbar .MuiBox-root a {
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
     place-items: middle;
     border-right-style: solid 1px #000000;
+    width: 100px;
+    text-align: center;
 
 }
 
@@ -35,6 +38,15 @@
     height: 40px;
     place-items: center;
 }
+
+.header .navbar .MuiStack-root svg .icon-home {
+    margin-right: 5px;
+}
+
+.header .navbar .MuiStack-root svg .icon-end {
+    margin-left: 5px;
+}
+
 
 hr {
     background-color: #000000;
