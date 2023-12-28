@@ -1,4 +1,86 @@
 .profile {
     width: 80vw;
     display: grid;
+    margin: 2rem auto;
 }
+
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+
+.about-profile {
+    display: flex;
+    width: 360px;
+    height: 150px;
+    background-color: #39424a;
+    border: 2px solid #72838d;
+}
+
+.about-friends {
+    display: flex;
+    width: 360px;
+    background-color: #39424a;
+    border: 2px solid #72838d;
+}
+
+
+
+.about-profile-avatar {
+    margin: 1rem 1rem;
+}
+
+
+.about-profile-info {
+    margin: 1rem 0 1rem 0;
+    overflow: hidden;
+}
+
+.about-profile-info-skills {
+    overflow-x: scroll;
+}
+
+.about-profile-info-skills {
+    overflow: hidden; /* Oculta la barra de desplazamiento */
+  }
+  
+  .img-container {
+    overflow-x: hidden; /* Oculta la barra de desplazamiento horizontal */
+    display: flex; /* Asegura que los elementos internos estén en una fila */
+    transition: transform 0.3s ease; /* Agrega una transición suave al desplazamiento */
+  }
+  
+  .button-container {
+    display: flex;
+    align-items: center; /* Alinea los botones verticalmente al centro con los iconos */
+    justify-content: space-between;
+  }
+  
+  .button-container button {
+    cursor: pointer;
+    padding: 5px 5px;
+    font-size: 16px;
+    border: none;
+    background-color: #ccc;
+    color: #333;
+    outline: none;
+  }
+  
+  .button-container button:disabled {
+    background-color: #ddd;
+    color: #999;
+    cursor: not-allowed;
+  }
+  
+  /* Ajusta el tamaño de los iconos a 50px */
+  .img-container img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .about-profile-info-title h6 {
+    margin-left: 1rem;
+  }
+  
