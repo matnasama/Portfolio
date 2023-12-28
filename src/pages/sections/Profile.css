@@ -74,10 +74,16 @@
     cursor: not-allowed;
   }
   
+  .img-container .MuiAvatar-root {
+    margin-left: 2px;
+    width: 40px;
+    height: 40px;
+  }
   /* Ajusta el tamaño de los iconos a 50px */
-  .img-container img {
-    width: 30px;
-    height: 30px;
+  .img-container .MuiAvatar-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
   }
 
   .about-profile-info-title h6 {
