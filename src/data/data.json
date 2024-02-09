@@ -1,0 +1,45 @@
+{
+	"sitios":[
+		{
+			"id": 1,
+			"nombre": "Facebook",
+			"url": "http://gestiononline.unm.edu.ar/unm3w/",
+			"imagen": "src/assets/facebook.svg"
+		},
+		{
+			"id": 2,
+			"nombre": "Instagram",
+			"email": "biblioteca@unm.edu.ar",
+			"url": "http://biblioteca.unm.edu.ar/cgi-bin/koha/opac-main.pl",
+			"imagen": "src/assets/instagram.svg"
+		},
+		{
+			"id": 3,
+			"nombre": "Twitter",
+			"email": "itunm@unm.edu.ar",
+			"url": "http://itunm.unm.edu.ar/",
+			"imagen": "src/assets/twitter.svg"
+		},
+		{
+			"id": 4,
+			"nombre": "Whatsapp",
+			"email": "posgrado@unm.edu.ar",
+			"url": "http://www.unm.edu.ar/index.php/carreras/posgrado",
+			"imagen": "src/assets/whatsapp.svg"
+		},
+		{
+			"id": 5,
+			"nombre": "Gmail",
+			"email": "campusvirtual@unm.edu.ar",
+			"url": "http://campusvirtual.unm.edu.ar/moodle/login/index.php",
+			"imagen": "src/assets/gmaill.svg"
+		},
+		{
+			"id": 5,
+			"nombre": "Linkedin",
+			"email": "campusvirtual@unm.edu.ar",
+			"url": "http://campusvirtual.unm.edu.ar/moodle/login/index.php",
+			"imagen": "src/assets/linkedin.svg"
+		}
+	]
+}

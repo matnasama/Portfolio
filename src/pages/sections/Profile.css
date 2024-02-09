@@ -35,7 +35,7 @@
 }
 
 .info-profile {
-  display: flex;
+  display: grid;
   width: 100%;
   height: 150px;
   background-color: #39424a;
@@ -47,16 +47,24 @@
   width: 100%;
   background-color: #39424a;
   border: 2px solid #72838d;
+  place-content: center;
 }
 
 .about-profile-avatar {
     margin: 1rem 1rem;
 }
 
+.about-profile-info-title {
+  margin: 0;
+  
+}
 
 .about-profile-info {
     margin: 1rem 0 1rem 0;
     overflow: hidden;
+    display: grid;
+    justify-content: center;
+    place-content: center;
 }
 
 .about-profile-info-skills {
